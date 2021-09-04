@@ -1,6 +1,5 @@
 function [Xe,average,eigvalue,B,Q] = ICA(X)
-%UNTITLED2 此处显示有关此函数的摘要
-%   此处显示详细说明
+%UNTITLED2 
 [M,T] = size(X); 
 average= mean(X,2);                                 
 for i=1:M
