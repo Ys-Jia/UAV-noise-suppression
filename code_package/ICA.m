@@ -1,6 +1,6 @@
 function [Xe,average,eigvalue,B,Q] = ICA(X)
-%UNTITLED2 此处显示有关此函数的摘要
-%   此处显示详细说明
+%UNTITLED2 姝ゅ鏄剧ず鏈夊叧姝ゅ嚱鏁扮殑鎽樿
+%   姝ゅ鏄剧ず璇︾粏璇存槑
 [M,T] = size(X); 
 average= mean(X,2);                                 
 for i=1:M
@@ -9,7 +9,7 @@ end
 Cx = cov(X',1); 
 [eigvector,eigvalue] = eig(Cx); 
 
-Q=eigvector*eigvalue^(-1/2)*eigvector'; %%%论文里面的Q
+Q=eigvector*eigvalue^(-1/2)*eigvector'; 
 Z=Q*X; 
 
  Maxcount=100; 
