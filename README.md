@@ -7,7 +7,7 @@ In view of the problem that the unmanned aerial vehicle (UAV) communication link
 ![Main Idea](https://github.com/Ys-Jia/UAV-noise-suppression/blob/main/Main%20Idea.png)
 ## Code Package
 Please make sure all fills in Code Package are in the same local directory!!! <br>
-Directly launch the file `ofdm_s_gui.fig` to open the simulation platform(require MATLAB 7.0 and upper)<br>
+Directly launch the file `ofdm_s_gui.fig` to open the simulation platform(require MATLAB 7.0 and onward)<br>
 
 ![Menu_pic](https://github.com/Ys-Jia/UAV-noise-suppression/blob/main/Menu%20Pic.png)
 
